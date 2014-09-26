@@ -1,11 +1,8 @@
 # VirtualKeboard helper (v 0.9.0b)
 
 This library requires Backbone and jQuery.
-
 This library provide events for mobile keyboard open/close.
-
 Basically it binds on focus event in iPhone and iPad devices and on resize in other devices.
-
 Was tested on iPad, iPhone and Android. if it won't work on other device please mail me)
 
 ## Basic events
@@ -34,3 +31,11 @@ deviceInfo = {
 ...
 });
 ```
+
+### Keyboard opened
+
+When keyboard is opened it triggers 2 events `virtualKeyboard` and `virtualKeyboard.opened`
+
+### Keyboard closed
+
+When keyboard is opened it triggers 2 events `virtualKeyboard` and `virtualKeyboard.closed`
